@@ -22,17 +22,17 @@ class Alive:
      Pic = pic
      
      msg = f"""
-**⁂ {amsg} ⁂**
+*⁂ {amsg} ⁂*
 
 ━───────╯•╰───────━
-➠ **𝑀𝒶𝓈𝓉𝑒𝓇:** {owner_mention}
-➠ **𝒫𝓎𝓉𝒽𝑜𝓃 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{platform.python_version()}`
-➠ **𝒮𝓅𝒶𝓂𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{__version__}`
-➠ **𝒫𝓎𝓇𝑜𝑔𝓇𝒶𝓂 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{pyro_vr}`
-➠ **𝒫𝓎 𝒯𝒽𝓊𝓃𝒹𝑒𝓇 𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:** `{pip_vr}`
-➠ **𝒢𝓇𝑜𝓊𝓅:** @UNI_INDIA_0000
+➠ *𝑀𝒶𝓈𝓉𝑒𝓇:* {owner_mention}
+➠ *𝒫𝓎𝓉𝒽𝑜𝓃 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{platform.python_version()}`
+➠ *𝒮𝓅𝒶𝓂𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{__version__}`
+➠ *𝒫𝓎𝓇𝑜𝑔𝓇𝒶𝓂 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{pyro_vr}`
+➠ *𝒫𝓎 𝒯𝒽𝓊𝓃𝒹𝑒𝓇 𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{pip_vr}`
+➠ *𝒢𝓇𝑜𝓊𝓅:* @UNI_INDIA_0000
 ━───────╮•╭───────━
-➠ **𝒮𝑜𝓊𝓇𝒸𝑒 𝒞𝑜𝒹𝑒:** [•Repo•](https://github.com/APL9210/THUNDERX)
+➠ *𝒮𝑜𝓊𝓇𝒸𝑒 𝒞𝑜𝒹𝑒:* [•Repo•](https://www.youtube.com/watch?v=ebYN0chFJp8)
      """
 
 handler = HNDLR

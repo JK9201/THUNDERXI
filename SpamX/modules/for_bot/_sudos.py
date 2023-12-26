@@ -67,7 +67,7 @@ async def addsudo(SpamX: Client, message: Message):
 @Client.on_message(filters.user(Sudos) & filters.command(["sudos", "sudolist"], prefixes=handler))
 @Client.on_message(filters.me & filters.command(["sudos", "sudolist"], prefixes=handler))
 async def sudolist(SpamX: Client, message: Message):
-    sudo_reply = "**Sudo users list - SpamX** \n\n"
+    sudo_reply = "*𝒮𝓊𝒹𝑜 𝓊𝓈𝑒𝓇𝓈 𝓁𝒾𝓈𝓉 - 𝒯𝒽𝓊𝓃𝒹𝑒𝓇𝒳 🍷* \n\n"
     if DATABASE_URL:
        data = users_db.get_all_sudos()
        for x in data:

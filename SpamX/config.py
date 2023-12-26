@@ -1,5 +1,7 @@
+"""  X """
 import os
 import sys
+import re
 
 from dotenv import load_dotenv
 from pyrogram import Client
@@ -11,18 +13,18 @@ if os.path.exists(".env"):
 # -------------CONFIGS--------------------
 API_ID = int(os.getenv("API_ID", ""))
 if not API_ID:
-   print("ThunderX [INFO]: You didn't fill API_ID var!")
+   print("X [INFO]: You didn't fill API_ID var!")
    sys.exit()
 API_HASH = os.getenv("API_HASH", "")
 if not API_HASH:
-   print("ThunderX [INFO]: You didn't fill API_HASH var!")
+   print("X [INFO]: You didn't fill API_HASH var!")
    sys.exit()
 ALIVE_PIC = os.getenv("ALIVE_PIC", "")
 ALIVE_MSG = os.getenv("ALIVE_MSG", "")
 PING_MSG = os.getenv("PING_MSG", "")
 CLIENT = os.getenv("CLIENT", None)
 if not CLIENT:
-   print("ThunderX [INFO]: You have to fill CLIENT var!")
+   print("X [INFO]: You have to fill CLIENT var!")
    sys.exit()
 CLIENT2 = os.getenv("CLIENT2", None)
 CLIENT3 = os.getenv("CLIENT3", None)
@@ -43,11 +45,12 @@ CLIENT17 = os.getenv("CLIENT17", None)
 CLIENT18 = os.getenv("CLIENT18", None)
 CLIENT19 = os.getenv("CLIENT19", None)
 CLIENT20 = os.getenv("CLIENT20", None)
+auto_re = os.getenv("AUTO_REACT_CHATS", None)
 LOGS_CHANNEL = os.getenv("LOGS_CHANNEL", None)
 if LOGS_CHANNEL:
    if check_logchannel(LOGS_CHANNEL):
-      print("ThunderX [INFO]: You Can't Use That Chat As A Log Channel -!")
-      print("ThunderX [INFO]: Change Logs Channel Id else Bot Could not be start")
+      print("X [INFO]: You Can't Use That Chat As A Log Channel -!")
+      print("X [INFO]: Change Logs Channel Id else Bot Could not be start")
       sys.exit()
     
 HNDLR = os.getenv("HNDLR", None)
@@ -55,7 +58,7 @@ if not HNDLR:
    HNDLR = "."
 OWNER_ID = int(os.environ.get("OWNER_ID", None))
 if not OWNER_ID:
-   print("ThunderX [INFO]: You didn't fill OWNER_ID var!")
+   print("X [INFO]: You didn't fill OWNER_ID var!")
    sys.exit()
 SUDO_USERS = os.getenv("SUDO_USERS", None)
 
@@ -66,3 +69,12 @@ if DATABASE_URL:
    os.system("pip3 install psycopg2-binary") 
    if 'postgres' in DATABASE_URL and 'postgresql' not in DATABASE_URL:
       DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
+
+WELCOME = os.getenv("WELCOME", None)
+if WELCOME:
+   if re.search("off|no|disable|false".lower(), WELCOME.lower()):
+      group_welcome = False 
+   else:
+      group_welcome = True
+else:
+   group_welcome = True

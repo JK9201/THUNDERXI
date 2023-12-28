@@ -9,7 +9,7 @@ __version__ = __version__
 
 
 ping_msg = PING_MSG if PING_MSG else "𝒯𝐻𝒰𝒟𝐸𝑅 𝒳 🍷"
-pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/d44e21c2ba129c6aba2ab.jpg"
+pic = ALIVE_PIC if ALIVE_PIC else "https://graph.org/file/a4ce02f203c8c509a49ee.mp4"
 amsg = ALIVE_MSG if ALIVE_MSG else "𝒯𝐻𝒰𝒩𝒟𝐸𝑅 𝒳"
 
 try:
@@ -27,7 +27,7 @@ class Alive:
 ━───────╯•╰───────━
 ➠ *𝑀𝒶𝓈𝓉𝑒𝓇:* {owner_mention}
 ➠ *𝒫𝓎𝓉𝒽𝑜𝓃 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{platform.python_version()}`
-➠ *𝒮𝓅𝒶𝓂𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{__version__}`
+➠ *𝒯𝒽𝓊𝓃𝒹𝑒𝓇𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{__version__}`
 ➠ *𝒫𝓎𝓇𝑜𝑔𝓇𝒶𝓂 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{pyro_vr}`
 ➠ *𝒫𝓎 𝒯𝒽𝓊𝓃𝒹𝑒𝓇 𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{pip_vr}`
 ➠ *𝒢𝓇𝑜𝓊𝓅:* @UNI_INDIA_0000

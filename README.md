@@ -1,5 +1,5 @@
 <p aling="center">
-  <img src="https://telegra.ph/file/d44e21c2ba129c6aba2ab.jpg" alt="ThunderXspam Logo">
+  <img src="https://graph.org/file/4e7a5069b61d9996fbd5a.jpg" alt="ThunderXspam Logo">
     </p>
   <h6 align="center">
     <b>𝒯𝐻𝒰𝒩𝒟𝐸𝑅 𝒳</b>
@@ -10,11 +10,10 @@
 
 
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/UNI_INDIA_0000)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/UNI_INDIA_0008)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/FriendCastel)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/free_fire_chat_group_official)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/Romeo9019)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/LegendBotSpam)
 
 <b> Give a star ⭐</b>
 
@@ -49,7 +48,7 @@
     * If You have Enabled 2-Step Verification then fill your password.
 
 
-  * [![Replit](https://img.shields.io/badge/SpamX-Run%20On%20ReplIT-black?style=for-the-badge&logo=replit)](https://replit.com/@RiZoeL/SpamX-Sessions?v=1)
+ 
 
 
 <h4>Terminal</4>

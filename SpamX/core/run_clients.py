@@ -140,7 +140,7 @@ def Run_SpamX():
     print(""" \n\n
      ╒═══════════════════════════╕
     Your THUNDER X has been Deployed!!
-    Visit @UNI_INDIA_0000 for updates!
+    Visit @UNI_INDIA_0008 for updates!
      ╘═══════════════════════════╛
     """)
     idle()

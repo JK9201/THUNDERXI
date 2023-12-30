@@ -25,14 +25,14 @@ class Alive:
 *⁂ {amsg} ⁂*
 
 ━───────╯•╰───────━
-➠ *𝑀𝒶𝓈𝓉𝑒𝓇:* {owner_mention}
-➠ *𝒫𝓎𝓉𝒽𝑜𝓃 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{platform.python_version()}`
-➠ *𝒯𝒽𝓊𝓃𝒹𝑒𝓇𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{__version__}`
-➠ *𝒫𝓎𝓇𝑜𝑔𝓇𝒶𝓂 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{pyro_vr}`
-➠ *𝒫𝓎 𝒯𝒽𝓊𝓃𝒹𝑒𝓇 𝒳 𝒱𝑒𝓇𝓈𝒾𝑜𝓃:* `{pip_vr}`
-➠ *𝒢𝓇𝑜𝓊𝓅:* @UNI_INDIA_0000
+➠ * • 𝓜𝓐𝓢𝓣𝓔𝓡 • :* {owner_mention}
+➠ * • 𝓟𝓨𝓣𝓗𝓞𝓝 𝓥𝓔𝓡𝓢𝓘𝓞𝓝 • :* `{platform.python_version()}`
+➠ * • 𝓣𝓗𝓤𝓝𝓓𝓔𝓡 𝓧 𝓥𝓔𝓡𝓢𝓘𝓞𝓝 • :* `{__version__}`
+➠ * • 𝓟𝓨𝓡𝓞𝓖𝓡𝓐𝓜 𝓥𝓔𝓡𝓢𝓘𝓞𝓝 • :* `{pyro_vr}`
+➠ * • 𝓟𝓨 𝓣𝓗𝓤𝓝𝓓𝓔𝓡 𝓧 𝓥𝓔𝓡𝓢𝓘𝓞𝓝 • :* `{pip_vr}`
+➠ * • 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 • :* @UNI_INDIA_0008
 ━───────╮•╭───────━
-➠ *𝒮𝑜𝓊𝓇𝒸𝑒 𝒞𝑜𝒹𝑒:* [•Repo•](https://www.youtube.com/watch?v=ebYN0chFJp8)
+➠ * • 𝓡𝓔𝓟𝓞 • :* (https://t.me/UNI_INDIA_0008)
      """
 
 handler = HNDLR
